@@ -44,6 +44,7 @@ class RingBuffer:
 
 class ArrayRingBuffer:
     def __init__(self, capacity):
+        self.capcity = capacity
         pass
 
     def append(self, item):
