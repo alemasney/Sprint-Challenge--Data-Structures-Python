@@ -13,9 +13,9 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
-for name_1 in names_1:
-    for name_2 in names_2:
-        if name_1 == name_2:
+for name_one in names_1:
+    for name_two in names_2:
+        if name_one == name_two:
             duplicates.append(name_1)
 
 end_time = time.time()
